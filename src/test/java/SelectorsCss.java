@@ -12,6 +12,7 @@ public class SelectorsCss {
 
     @Test
     public void phoneBookTest() {
+        System.out.println();
         driver.manage().window().maximize();
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
